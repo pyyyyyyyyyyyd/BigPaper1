@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/bullet">
+        <file>head.png</file>
+    </qresource>
+</RCC>

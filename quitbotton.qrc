@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/button">
+        <file>ButtonStart.jpg</file>
+        <file>ButtonQuit.jpg</file>
+        <file>setTower.jpg</file>
+        <file>setEnemybutton.jpg</file>
+    </qresource>
+</RCC>
