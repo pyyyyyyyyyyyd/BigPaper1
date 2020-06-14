@@ -2,5 +2,6 @@
     <qresource prefix="/cover">
         <file>TowCover.jpg</file>
         <file>GameScene.png</file>
+        <file>MenuCover.png</file>
     </qresource>
 </RCC>

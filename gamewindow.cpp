@@ -36,11 +36,7 @@ void GameWindow::paintEvent(QPaintEvent *)//画背景函数
 
     foreach(Tower * tower, towerList) tower->drawtower(&painter);//画塔
     foreach(Enemy * enemy, enemyList) enemy->drawenemy(&painter);//画敌人
-
-    //----------------------------------------------------------------------------------
-    foreach(Bullet * bullet,bulletList) bullet->drawbullet(&painter);
-    //-----------------------------------------------------------------------------------
-
+    foreach(Bullet * bullet,bulletList) bullet->drawbullet(&painter);//画按钮
 }
 
 void GameWindow::setTower()

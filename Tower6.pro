@@ -30,7 +30,8 @@ SOURCES += \
     gamewindow.cpp \
     tower.cpp \
     enemy.cpp \
-    bullet.cpp
+    bullet.cpp \
+    menu.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -38,7 +39,8 @@ HEADERS += \
     gamewindow.h \
     tower.h \
     enemy.h \
-    bullet.h
+    bullet.h \
+    menu.h
 
 FORMS += \
         mainwindow.ui

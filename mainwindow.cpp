@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include "button.h"
 #include "gamewindow.h"
+#include "menu.h"
 
 #include <QPainter>
 #include <QPixmap>
@@ -24,14 +25,12 @@ MainWindow::MainWindow(QWidget *parent) :
     Button * buttonstart =new Button(":/button/ButtonStart.jpg");//开始游戏按钮
     buttonstart->setParent(this);
     buttonstart->move(320,310);//位置
-    GameWindow * gameviewer = new GameWindow;
+    Menu * menuviewer = new Menu;
     connect(buttonstart,&QPushButton::clicked,this,[=]()//“=”表示可以使用当前类里的所有东西，{}里面是函数实现
     {
         this->close();//关闭主界面
-        gameviewer->show();
+        menuviewer->show();
     });
-
-
 
     //QPushButton *botton = new QPushButton(this);        //this表示出现在主界面上
     //botton->setFixedSize(50,50);                        //按钮大小

@@ -1,5 +1,7 @@
 <RCC>
     <qresource prefix="/tower">
         <file>Tower1.jpg</file>
+        <file>Tower2.jpg</file>
+        <file>Tower3.jpg</file>
     </qresource>
 </RCC>

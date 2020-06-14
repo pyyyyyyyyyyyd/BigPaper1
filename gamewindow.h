@@ -3,10 +3,7 @@
 
 #include "tower.h"
 #include "enemy.h"
-
-//--------------------------------------------------------
 #include "bullet.h"
-//---------------------------------------------------------
 
 #include <QMainWindow>
 #include <QPainter>
@@ -24,9 +21,7 @@ public:
     void setEnemy();//按钮，放敌人
     void updateScene();//实时更新图片
 
-    //--------------------------------------------------
     void launch(QPoint starPo);//发射子弹
-    //-------------------------------------------------
 
     explicit GameWindow(QWidget *parent = nullptr); //构造函数
 
@@ -34,10 +29,8 @@ private:
     QList<Tower*>towerList;//塔
     QList<Enemy*>enemyList;//敌人
 
-    //-----------------------------------------------------
     QList<Bullet*>bulletList;//子弹
     bool ingame;
-    //-----------------------------------------------------
 
 signals:
 
