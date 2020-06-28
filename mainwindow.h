@@ -6,6 +6,7 @@
 #include <QPixmap>
 #include <QPaintEvent>
 #include <QPushButton>
+
 QT_BEGIN_NAMESPACE
 namespace Ui{class MainWindow;}
 QT_END_NAMESPACE

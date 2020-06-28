@@ -1,7 +1,12 @@
 <RCC>
     <qresource prefix="/cover">
         <file>TowCover.jpg</file>
-        <file>GameScene.png</file>
         <file>MenuCover.png</file>
+        <file>GameOver.jpg</file>
+        <file>WinOver.jpg</file>
+        <file>GameViewer.png</file>
+        <file>GameViewer2.png</file>
+        <file>enemyIntro.png</file>
+        <file>towerIntro.png</file>
     </qresource>
 </RCC>

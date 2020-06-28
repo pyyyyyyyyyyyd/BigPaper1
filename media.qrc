@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/bgm">
+        <file>Tower.mp3</file>
+        <file>bullet.mp3</file>
+        <file>Win.mp3</file>
+        <file>GameOver.mp3</file>
+    </qresource>
+</RCC>

@@ -1,10 +1,9 @@
-#ifndef GAMEWINDOW_H
-#define GAMEWINDOW_H
+#ifndef GAMEWINDOW2_H
+#define GAMEWINDOW2_H
 
 #include "tower.h"
 #include "enemy.h"
 #include "bullet.h"
-
 
 #include <QMainWindow>
 #include <QPainter>
@@ -15,11 +14,11 @@
 #include <QTimer>
 #include <QMediaPlayer>
 
-class GameWindow : public QMainWindow
+class GameWindow2 : public QMainWindow
 {
     Q_OBJECT
 public:
-    explicit GameWindow(QWidget *parent = nullptr); //构造函数
+    explicit GameWindow2(QWidget *parent = nullptr); //构造函数
     void paintEvent(QPaintEvent *);//画背景函数
     void initgame();
     void GameOver();
@@ -39,10 +38,10 @@ public:
 
 private:
     int killed = 0;
-    int coin = 20;
-    int ToEn1=10;//第一类敌人数
+    int coin = 25;
+    int ToEn1=15;//第一类敌人数
     int NuEn1=0;//已出现第一类敌人数
-    int ToEn2=5;
+    int ToEn2=10;
     int NuEn2=0;//第二类
 
 
@@ -54,10 +53,9 @@ private:
     QList<Enemy*>enemyList;//敌人
     QList<Bullet*>bulletList;//子弹
 
-
 signals:
 
 public slots:
 };
 
-#endif // GAMEWINDOW_H
+#endif // GAMEWINDOW2_H

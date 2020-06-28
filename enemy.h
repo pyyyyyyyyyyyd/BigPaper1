@@ -13,13 +13,18 @@ class Enemy : public QObject
     Q_PROPERTY(QPoint nowPoint READ getNowPoint WRITE setNowPoint)//该代码是使动画函数认识我们定义的point，read是读取当前位置，write是改写当前位置
 
 public:
-    Enemy(QPoint startPo, QPoint targetPo, QString enemyroad);
+    int life;
+    static const int MaxLife=20;
+
+    Enemy(QPoint startPo, QPoint targetPo, QString enemyroad, int life);
     void drawenemy(QPainter * painter);
     void move();//使其移动的函数
+    void move2();
     QPoint getNowPoint();//读取当前位置
     void setNowPoint(QPoint po);//设定当前位置
 
 private:
+
     QPoint startPoint;//开始位置
     QPoint targetPoint;//目标位置
     QPoint nowPoint;//当前位置

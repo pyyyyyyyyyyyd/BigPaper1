@@ -13,12 +13,12 @@ class Bullet : public QObject
     Q_PROPERTY(QPoint nowPoint READ getNowPoint WRITE setNowPoint)
 
 public:
-    Bullet(QPoint startPo, QString bulletroad);
-    void drawbullet(QPainter * painter);
+    Bullet(QPoint startPo, QPoint targetPo, QString bulletroad);//构造函数
+    void drawbullet(QPainter * painter);//画子弹
     void move();//使其移动的函数
     QPoint getNowPoint();//读取当前位置
     void setNowPoint(QPoint po);//设定当前位置
-    void setTarget();//设定目标点
+    bool checkReach();
 
 private:
     QPoint startPoint;//开始位置

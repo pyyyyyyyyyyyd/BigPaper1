@@ -3,7 +3,9 @@
         <file>ButtonStart.jpg</file>
         <file>ButtonQuit.jpg</file>
         <file>setTower.jpg</file>
-        <file>setEnemybutton.jpg</file>
         <file>chap1.jpg</file>
+        <file>ButtoIntroduction.jpg</file>
+        <file>chap2.jpg</file>
+        <file>setTower2.jpg</file>
     </qresource>
 </RCC>

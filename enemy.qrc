@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/enemy">
-        <file>Enemy.jpg</file>
+        <file>Enemy2.png</file>
+        <file>Enemy1.png</file>
     </qresource>
 </RCC>
